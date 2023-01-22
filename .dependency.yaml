@@ -2,7 +2,7 @@ dependency:
   files:
     - pom.xml # If this is a maven project.
   black-list: # Support regular expressions, the priority is groupId > artifactId > version
-    - groupId: org.sonarsource.sonarqube
+    - groupId: org.junit.jupiter
     - groupId:
       artifactId:
       version: 
