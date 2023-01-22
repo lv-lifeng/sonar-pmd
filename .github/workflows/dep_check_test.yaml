@@ -1,4 +1,4 @@
-name: DependencyEye
+name: DependencyEyeTest
 
 on:
   pull_request:
