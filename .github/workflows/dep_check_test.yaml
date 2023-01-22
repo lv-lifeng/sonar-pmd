@@ -1,0 +1,15 @@
+name: DependencyEye
+
+on:
+  pull_request:
+  push:
+    branches:
+      - test_GHA
+
+jobs:
+  build-dep-eye:
+    name: Build DependencyEye
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dependency Eye
+        uses: lv-lifeng/eye@v1.0.2
