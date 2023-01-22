@@ -3,7 +3,7 @@ name: DependencyEye
 on:
   pull_request:
     branches:
-        - test_gha
+        - test_GHA
     
 
 jobs:
