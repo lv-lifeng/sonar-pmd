@@ -2,9 +2,9 @@ name: DependencyEye
 
 on:
   pull_request:
-  push:
     branches:
-      - test_GHA
+        - master
+    
 
 jobs:
   build-dep-eye:
